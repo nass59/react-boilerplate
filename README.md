@@ -1,4 +1,4 @@
-# React
+# React Boilerplate
 
 ## 1 - Initialize an npm Project and git Reposotory
 
