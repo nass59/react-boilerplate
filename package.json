@@ -1,5 +1,5 @@
 {
-  "name": "react",
+  "name": "react-boilerplate",
   "version": "0.1.0",
   "description": "React tuto",
   "main": "index.js",
@@ -21,7 +21,17 @@
   },
   "homepage": "https://github.com/nass59/react-boilerplate#readme",
   "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
     "webpack": "^4.39.3",
     "webpack-cli": "^3.3.8"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
   }
 }
