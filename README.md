@@ -12,3 +12,14 @@ After creating the repo, you can update info of **package.json** by running the 
 ```bash
 $ npm init -y
 ```
+
+## 2 - Install webpack and create a default bundle
+
+```bash
+$ npm install --save-dev webpack webpack-cli
+```
+
+```bash
+$ npm run build                        // Run without mode
+$ npm run build -- --mode development  // Run with development mode
+```

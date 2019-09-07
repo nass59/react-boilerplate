@@ -4,6 +4,7 @@
   "description": "React tuto",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -18,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/nass59/react-boilerplate/issues"
   },
-  "homepage": "https://github.com/nass59/react-boilerplate#readme"
+  "homepage": "https://github.com/nass59/react-boilerplate#readme",
+  "devDependencies": {
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8"
+  }
 }
